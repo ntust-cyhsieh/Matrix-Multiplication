@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 
 
     double start = omp_get_wtime();  
-    int incr = 32;
+    int incr = 16;
     for (i = 0; i < row; i += incr) {
          for (j = 0; j < col; j += incr) {
              for (k = 0; k < row; k += incr) {
